@@ -1,17 +1,20 @@
 {
   "name": "neo-design-patterns-hw-04",
   "version": "1.0.0",
-  "description": "",
+  "description": "Singleton, Builder, Prototype patterns",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "builder": "ts-node src/builder/main.ts",
+    "prototype": "ts-node src/prototype/main.ts",
+    "singleton": "ts-node src/singleton/main.ts",
+    "dev": "ts-node src/builder/main.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^25.9.3",
+    "@types/node": "^20.0.0",
     "ts-node": "^10.9.2",
-    "typescript": "^6.0.3"
+    "typescript": "^5.0.0"
   }
 }
